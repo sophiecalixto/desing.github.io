@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+/* fonts container */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* open sans */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /* lato */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* popins */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body::before{
+    content: "";
+    background-image: url('https://cdn.wallpapersafari.com/59/17/2rs3Ph.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.80;
+}
+.header {
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+    background-color: #662526ce;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header h1 {
+    font-size: 60px;
+    color: white;
+
+}
+.header p {
+    font-size: 17px;
+    position: relative;
+    top: 05px;
+    color: white;
+   
+}
+.hero {
+    position: relative;
+    text-align: center;
+    top: 160px;
+}
+.hero h2{
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px gray;
+}
+.hero p {
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 20px;
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+.hero img{
+   width: 160px;
+   height: 160px;
+   border-radius: 50%;
+   border: white solid;
+   text-shadow: 1px 1px gray;
+}
+#main {
+    background-color: white;
+    position: absolute;
+    top: 700px;
+    width: 100%;
+    text-align: center;
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 20px;
+}
+.yeah::before {
+   content: "😉";
+}
+.article {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    background: url('https://wallpaperaccess.com/full/1221809.jpg');
+    background-size: cover;
+}
+
+.colors h2 {
+    text-align: center;
+    padding: 20px;
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px gray;
+}
+.colors {
+    border: 2px solid white;
+    margin: 20px 20px;
+}
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    margin: 20px 30px;
+    min-height: 100px;
+}
+.color-container p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+    font-size: 18px;
+}
+.color1 {
+    background-color: #662526;
+    color: white;
+}
+.color2 {
+    background-color: #EA9A9C;
+    color: white;
+}
+.color3 {
+    background-color: #E65254;
+    color: white;
+}
+.color4 {
+    background-color: #664344;
+    color: white;
+}
+.color5 {
+    background-color: #B34042;
+    color: white;
+}
+.color6{
+    background-color: #5C5211;
+    color: white;
+}
+.color7 {
+    background-color: #F5EBAB;
+    color: white;
+}
+.color8 {
+    background-color: #DBC42A;
+    color: white;
+}
+.article2 {
+    position: absolute;
+    top: 1429px;
+    width: 100%;
+    background: url('https://www.wallpapertip.com/wmimgs/45-453204_thumb-image-aesthetic-renaissance-art-desktop.jpg');
+    background-size: cover;
+}
+.fonts h2 {
+    text-align: center;
+    padding: 20px;
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px gray;
+}
+.fonts {
+    border: 2px solid white;
+    margin: 20px 20px;
+}
+.font-container {
+    width: 100%;
+}
+.font-panel {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    margin: 20px 30px;
+    min-height: 100px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.671);
+}
+.font1 {
+    font-family: 'Roboto', sans-serif;
+}
+.font2 {
+    font-family: 'Open Sans', sans-serif;
+}
+.font3 {
+    font-family: 'Lato', sans-serif;
+}
+.font4 {
+    font-family: 'Poppins', sans-serif;
+}
+footer {
+    display: block;
+    position: absolute;
+    bottom: -94px;
+    background: #664344;
+    width: 100%;
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+    padding: 20px;
+    z-index: 5;
+}
+footer h1 {
+    color: white;
+}
+.icon {
+    font-size: 50px;
+    display: inline;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
